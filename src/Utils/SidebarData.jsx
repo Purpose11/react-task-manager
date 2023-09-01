@@ -8,13 +8,13 @@ export const SideBarData = [
   {
     id: 1,
     name: "Home",
-    path: "/",
+    path: "/react-task-manager/",
     icon: <BiHomeAlt2 className="text-white text-2xl flex-shrink-0" />,
   },
   {
     id: 2,
     name: "Completed Tasks",
-    path: "/completed",
+    path: "/react-task-manager/completed",
     icon: (
       <AiOutlineCheckCircle className="text-white text-2xl flex-shrink-0" />
     ),
@@ -22,13 +22,13 @@ export const SideBarData = [
   {
     id: 3,
     name: "Pending Tasks",
-    path: "/pending",
+    path: "/react-task-manager/pending",
     icon: <MdOutlinePending className="text-white text-2xl flex-shrink-0" />,
   },
   {
     id: 4,
     name: "About",
-    path: "/about",
+    path: "/react-task-manager/about",
     icon: (
       <MdOutlineDescription className="text-white text-2xl flex-shrink-0" />
     ),
@@ -36,7 +36,7 @@ export const SideBarData = [
   {
     id: 5,
     name: "Calendar",
-    path: "/calendar",
+    path: "/react-task-manager/calendar",
     icon: <MdCalendarMonth className="text-white text-2xl flex-shrink-0" />,
   },
 ];

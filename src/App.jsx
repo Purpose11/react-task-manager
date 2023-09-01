@@ -13,11 +13,20 @@ function App() {
         <Sidebar />
         <div className="flex-1 ml-[70px] lg:ml-[250px]">
           <Routes>
-            <Route exact path="/" element={<Home />}></Route>
-            <Route path="/completed" element={<CompletedTask />}></Route>
-            <Route path="/pending" element={<PendingTasks />}></Route>
-            <Route path="/about" element={<About />}></Route>
-            <Route path="/calendar" element={<ReactCalendar />}></Route>
+            <Route exact path="/react-task-manager/" element={<Home />}></Route>
+            <Route
+              path="/react-task-manager/completed"
+              element={<CompletedTask />}
+            ></Route>
+            <Route
+              path="/react-task-manager/pending"
+              element={<PendingTasks />}
+            ></Route>
+            <Route path="/react-task-manager/about" element={<About />}></Route>
+            <Route
+              path="/react-task-manager/calendar"
+              element={<ReactCalendar />}
+            ></Route>
           </Routes>
         </div>
       </div>
